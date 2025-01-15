@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halaman Utama</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+     /* Custom Colors */
+body {
+  background-color: #fdfcfb; /* Off-white, lebih hangat dari putih */
+  color: #1a1a1a; /* Hitam pekat untuk teks */
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #121212; /* Hitam elegan untuk navbar */
+}
+.navbar-brand {
+  color: #d4af37 !important; /* Emas untuk teks logo */
+}
+.navbar-brand:hover {
+  color: #b0892b !important; /* Emas gelap pada hover */
+}
+.nav-link {
+  color: #ffffff !important; /* Putih untuk teks menu */
+}
+.nav-link:hover {
+  color: #d4af37 !important; /* Emas pada hover */
+}
+.navbar-toggler {
+  border-color: #d4af37; /* Emas untuk garis toggle menu */
+}
+.btn-secondary {
+  background-color: #d4af37; /* Warna emas untuk tombol */
+  color: #121212; /* Hitam untuk teks tombol */
+}
+.btn-secondary:hover {
+  background-color: #b0892b; /* Emas gelap pada hover */
+}
+.card-body, .card-title, .card-text {
+  color: #121212; /* Hitam elegan untuk teks dalam kartu */
+}
+.card {
+  background-color: #ffffff; /* Putih bersih untuk kartu */
+  border: 1px solid #d4af37; /* Border emas */
+}
+.card-img-top {
+  border-bottom: 3px solid #d4af37; /* Border bawah gambar emas */
+}
+.footer {
+  background-color: #121212; /* Hitam untuk footer */
+  color: #f5f5f5; /* Putih lembut untuk teks footer */
+  padding: 20px 0;
+}
+.footer p {
+  margin: 0;
+}
+.text-center h3 {
+  color: #d4af37; /* Emas untuk header */
+}
+
+/* Full-screen section with gray background for logos */
+.logo-section {
+  background-color: #f8f8f8; /* Putih netral untuk latar logo */
+  padding: 40px 0;
+  width: 100vw;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  left: 0;
+}
+
+    </style>
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid p-0">
+        <a class="navbar-brand d-flex align-items-center" href="#" style="font-weight: bold; font-size: 1.1rem;">
+          <img src="image/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+          <span class="ms-2">Nilna Skincare</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto w-100 d-flex justify-content-around">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html" style="font-size: 1.1rem; font-weight: bold;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about1.html" style="font-size: 1.1rem; font-weight: bold;">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="font-size: 1.1rem; font-weight: bold;">Layanan</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 1.1rem; font-weight: bold;">
+                Produk
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Cushion</a></li>
+                <li><a class="dropdown-item" href="#">Koncealer</a></li>
+                <li><a class="dropdown-item" href="#">Bedak Tabur</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Lipstik</a></li>
+                <li><a class="dropdown-item" href="#">Fokalure</a></li>
+                <li><a class="dropdown-item" href="#">Bedak Padat</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="/Kontak.html" style="font-size: 1.1rem; font-weight: bold;">Kontak</a>
+            </li>
+          </ul>
+          <div class="d-flex ms-3 align-items-center">
+            <div class="vr mx-3" style="height: 30px;"></div>
+            <a href="#" class="me-3"><img src="image/fb1.png" alt="" width="30" height="30"></a>
+            <a href="#" class="me-3"><img src="image/ig4.jfif" alt="" width="30" height="30"></a>
+            <a href="#" class="me-3"><img src="image/tw1-removebg-preview.png" alt="" width="30" height="30"></a>
+            <a href="#" class="me-3"><img src="image/tiktok 2.png" alt="" width="30" height="30"></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="card text-bg-dark">
+      <img src="image/banner5.jpeg" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title" style="font-size: 2rem; font-weight: bold;">Kosmetik Dan Skincare Terbaik</h5>
+        <p class="card-text" style="font-size: 1.25rem;">Tertarik dengan bisnis kosmetik dan skincare?? Yuk, Konsultasi bersama Nilna skincare Kosmetik Industri</p> 
+        <p class="card-text"><small></small></p>
+        <div class="d-flex justify-content">
+          <button class="btn btn-secondary" type="button" style="font-size: 1.25rem; padding: 10px 30px;"><h5>Hubungi kami</h5></button> <!-- Increased font size and padding for button -->
+        </div>
+      </div>
+    </div><br>
+
+    <div class="container mt-4" style="background-color: #f2f2f2;">
+      <h4 class="text-center mb-3"></h4>
+      <div class="row text-center g-4">
+        <div class="col-6 col-md-3">
+          <div class="card" style="width: 90%; margin: auto;">
+            <img src="image/g2g1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cushion Glad2Glow</h5>
+              <h6 class="card-text">Rp 85.000</h6>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-6 col-md-3">
+          <div class="card" style="width: 90%; margin: auto;">
+            <img src="image/sanskrin daviean.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sunscreen Daviaena</h5>
+              <h6 class="card-text">Rp 215.000</h6>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-6 col-md-3">
+          <div class="card" style="width: 90%; margin: auto;">
+            <img src="image/pixy3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cushion Pixy</h5>
+              <h6 class="card-text">Rp 69.000</h6>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-6 col-md-3">
+          <div class="card" style="width: 90%; margin: auto;">
+            <img src="image/body lotion.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Body Lotion Scarlett</h5>
+              <h6 class="card-text">Rp 75.000</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="container mt-4">
+      <h4 class="text-center mb-3"></h4>
+      <div class="row text-center g-0">
+        <div class="col-6 col-md-3">
+          <div class="card" style="width: 100%;">
+            <img src="image/bren daviena.jpg" class="card-img-top" alt="Logo PB" style="margin-bottom: 0;">
+          </div>
+        </div>
+        
+        <div class="col-6 col-md-3">
+          <div class="card" style="width: 100%;">
+            <img src="image/bren g2g.jfif" class="card-img-top" alt="Logo Skintifik" style="margin-bottom: 0;">
+          </div>
+        </div>
+        
+        <div class="col-6 col-md-3">
+          <div class="card" style="width: 100%;">
+            <img src="image/bren pixy.jpg" class="card-img-top" alt="Logo PB" style="margin-bottom: 0;">
+          </div>
+        </div>
+        
+        <div class="col-6 col-md-3">
+          <div class="card" style="width: 100%;">
+            <img src="image/bren skarlet.png" class="card-img-top" alt="Logo Skintifik" style="margin-bottom: 0;">
+          </div>
+        </div>
+     
+    <div class="col-6 col-md-3">
+      <div class="card" style="width: 100%;">
+        <img src="image/bren viva.jpg" class="card-img-top" alt="Logo Skintifik" style="margin-bottom: 0;">
+      </div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="card" style="width: 100%;">
+        <img src="image/bren orijinot.jpg" class="card-img-top" alt="Logo Skintifik" style="margin-bottom: 0;">
+      </div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="card" style="width: 100%;">
+        <img src="image/bren skinti3.jfif" class="card-img-top" alt="Logo Skintifik" style="margin-bottom: 0;">
+      </div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="card" style="width: 100%;">
+        <img src="image/renby2.jpg" class="card-img-top" alt="Logo Skintifik" style="margin-bottom: 0;">
+      </div>
+    </div>
+    </div>
+    </div><br>
+
+   
+    
+      <div class="d-grid gap-2">
+        <button class="btn btn-secondary" type="button"><h3>Brand kosmetik Nilna</h3></button>
+      </div><br>
+
+      <div class="container logo-section">
+        <h4 class="text-center mb-3"><strong></strong></h4>
+        <div class="row text-center ">
+          <div class="col-md-3">
+            <a href="#" class="text-decoration-none">
+              <img src="image/logo davieana.png" alt="Elektronik" class="img-thumbnail" width="150">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#" class="text-decoration-none">
+              <img src="image/pixi.png" alt="Fashion" class="img-thumbnail" width="150">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#" class="text-decoration-none">
+              <img src="image/g2g-logo.webp" alt="Fashion" class="img-thumbnail" width="150">
+            </a>
+          </div>
+          <div class="col-md-3"><br>
+            <a href="#" class="text-decoration-none">
+              <img src="image/logo pb.png" alt="Fashion" class="img-thumbnail" width="150">
+            </a>
+          </div>
+          <div class="col-md-3"><br>
+            <a href="#" class="text-decoration-none">
+              <img src="image/orijinot.jfif" alt="Fashion" class="img-thumbnail" width="150">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#" class="text-decoration-none">
+              <img src="image/warda.avif" alt="Fashion" class="img-thumbnail" width="150">
+            </a>
+          </div>
+          <div class="col-md-3"><br>
+            <a href="#" class="text-decoration-none">
+              <img src="image/scarlet.jfif" alt="Fashion" class="img-thumbnail" width="150">
+            </a>
+          </div>
+          <div class="col-md-3"><br>
+            <a href="#" class="text-decoration-none">
+              <img src="image/ss.jfif" alt="Fashion" class="img-thumbnail" width="150">
+            </a>
+          </div>
+         
+        </div>
+      </div>
+    </div><br>
+            <hr>
+            <div class="center-container">
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-secondary" type="button"><h3>Mengapa Memilih Kami?</h3></button>
+              </div>
+              </div>
+            </div>
+            <div class="container my-5">
+              <div class="row g-4 text-center">
+                <div class="col-md-6">
+                  <div class="d-flex align-items-center p-3 bg-light rounded shadow">
+                    <img src="image/logo R&D.webp" alt="R&D Icon" class="me-3" style="width: 70px; height: 70px;">
+                    <div class="text-start">
+                      <h5 class="mb-1">R&D Berpengalaman</h5>
+                      <p class="mb-0 text-muted">Kami mampu mewujudkan konsep kosmetik & skincare kamu menjadi produk yang aman dipasarkan.</p>
+                    </div>
+                  </div>
+                </div>
+              
+            
+                <div class="col-md-6">
+                  <div class="d-flex align-items-center p-3 bg-light rounded shadow">
+                    <img src="image/logo formula unik.webp" alt="R&D Icon" class="me-3" style="width: 70px; height: 70px;">
+                    <div class="text-start">
+                      <h5 class="mb-1">Formula Unik</h5>
+                      <p class="mb-0 text-muted">Formula produk kosmetik kamu dijamin tidak akan sama dengan brand lain yang ada di pasaran.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-6">
+                  <div class="d-flex align-items-center p-3 bg-light rounded shadow">
+                    <img src="image/logo perijinan.webp" alt="Quality Icon" class="me-3" style="width: 70px; height: 70px;">
+                    <div class="text-start">
+                      <h5 class="mb-1">Perizinan Mudah</h5>
+                      <p class="mb-0 text-muted">Kami siap membantu proses perizinan mengurus BPOM, sertifikasi halal MUI, dan lainnya.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-6">
+                  <div class="d-flex align-items-center p-3 bg-light rounded shadow">
+                    <img src="image/logo jaminan kualitas.webp" alt="Quality Icon" class="me-3" style="width: 70px; height: 70px;">
+                    <div class="text-start">
+                      <h5 class="mb-1">Jaminan Kualitas</h5>
+                      <p class="mb-0 text-muted">Kami menghasilkan produk kosmetik berkualitas sesuai standar nasional & internasional.</p>
+                    </div>
+                  </div>
+                </div><br>
+          
+               
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="card">
+                        <img src="image/hubungi kami 1.webp" class="card-img-top" alt="...">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                          <p class="card-text ms-0">Temukan solusi untuk kamu yang baru memulai bisnis kosmetik & skincare </p>
+                          <button type="button" class="btn btn-secondary">Hubungi kami</button>
+                        </div>
+                      </div>
+                    </div>
+                
+                    <div class="col-md-6 mb-4">
+                      <div class="card">
+                        <img src="image/hubungi kami 2.webp" class="card-img-top" alt="...">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                          <p class="card-text ms-">Memiliki impian produk kosmetik kamu jadi trend dan brand kamu saat ini jadi besar, buktikan bagaimana keahlian kami melakukannya</p>
+                          <button type="button" class="btn btn-secondary">Hubungi Kami</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+               
+                <div class="container-fluid mt-5" style="background-color: #333333; color: white; padding: 40px;">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p style="line-height: 1.8; margin-bottom: 5px; text-align: left;">
+                        <strong>Detail Kontak</strong>
+                    
+                        <p style="line-height: 1.8; margin-bottom: 5px; text-align: left;">
+                        <strong>Alamat:</strong><br>
+                        Jl.pelor mas2 kecematan sekarbela kota mataram nusa tenggara barat
+                      </p>
+                      </p>
+                    
+                        <p style="line-height: 1.8; margin-bottom: 5px; text-align: left;">
+                          <strong>Admin 1:</strong> <span style="color: yellow;">+(62) 85732677777</span><br>
+                          <strong>Email:</strong> <a href="mailto:info@skinsolutionindustri.co.id" style="color: yellow; text-decoration: none;">info@skinsolutionindustri.co.id</a>
+                        </p>
+                        
+                    
+                      <p>
+                        <p style="line-height: 1.8; margin-bottom: 5px; text-align: left;">
+                        <strong>Waktu kerja</strong><br>
+                        Senin sampai Jum'at: 08:00 AM to 05:00 PM
+                      </p>
+                    </div>
+                    
+                    <div class="col-md-6">
+                      <p style="line-height: 1.8; margin-bottom: 5px; text-align: left;">
+                        <strong>Berita Terbaru</strong>
+                      </p>
+                    
+                      <ul style="line-height: 1.8; padding-left: 20px; margin-bottom: 20px; text-align: left;">
+                        <li style="margin-bottom: 5px;">Mengungkap Proses dan Pentingnya di Industri Kecantikan</li>
+                        <li style="margin-bottom: 5px;">Minat Masyarakat Membuat Brand Kosmetik semakin Tinggi</li>
+                        <li style="margin-bottom: 5px;">Kualitas produk semakin terjamin dan sudah mendapatkan sertifikat seperti BPOM, LPPOM HALAL MUI, HKI, ISO 9001, ISO 14001, ISO 45001 dan CPKB (Cara Pembuatan Kosmetik yang Baik)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="container-fluid px-0" style="background-color: #343a40; color: white; padding: 20px 0;">
+                  <div class="row justify-content-between align-items-center">
+                    <div class="col-md-6 text-center text-md-left">
+                      <p style="margin: 0;">© 2025 Nilna Skincare</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end"> 
+                      <a href="#" class="me-3"><img src="image/facebook-new.png" alt="Facebook" width="30" height="30"></a>
+                      <a href="#" class="me-3"><img src="image/ig4-removebg-preview.png" alt="Instagram" width="30" height="30"></a>
+                      <a href="#" class="me-3"><img src="image/tw1-removebg-preview.png" alt="Twitter" width="30" height="30"></a>
+                      <a href="#" class="me-3"><img src="image/tiktok 2.png" alt="TikTok" width="30" height="30"></a>
+                    </div>
+                  </div>
+                </div>
+                
+                <script src="js/bootstrap.bundle.min.js"></script>
+                </body>
+                </html>
+                

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halaman Utama</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        background-color: #fdfcfb;
+        color: #1a1a1a;
+        margin: 0;
+        padding: 0;
+      }
+      .navbar {
+        background-color: #121212;
+      }
+      .navbar-brand {
+        color: #d4af37 !important;
+      }
+      .navbar-brand:hover {
+        color: #b0892b !important;
+      }
+      .nav-link {
+        color: #ffffff !important;
+      }
+      .nav-link:hover {
+        color: #d4af37 !important;
+      }
+      .navbar-toggler {
+        border-color: #d4af37;
+      }
+      .btn-secondary {
+        background-color: #d4af37;
+        color: #121212;
+      }
+      .btn-secondary:hover {
+        background-color: #b0892b;
+      }
+      .card-body, .card-title, .card-text {
+        color: #121212;
+      }
+      .card {
+        background-color: #ffffff;
+        border: 1px solid #d4af37;
+        width: 100%; /* Mengubah lebar card menjadi 100% */
+        margin: 0 auto;
+      }
+      .card-img-top {
+        border-bottom: 3px solid #d4af37;
+      }
+      .footer {
+        background-color: #121212;
+        color: #f5f5f5;
+        padding: 20px 0;
+      }
+      .footer p {
+        margin: 0;
+      }
+      .text-center h3 {
+        color: #d4af37;
+      }
+      .logo-section {
+        background-color: #f8f8f8;
+        padding: 40px 0;
+        width: 100vw;
+        margin: 0;
+        position: relative;
+        left: 0;
+      }
+      .form-container {
+        width: 100%;
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .form-container h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .form-group {
+        margin-bottom: 15px;
+      }
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      .form-group input, .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .form-group input[type="date"] {
+        padding: 9px;
+      }
+      .form-group button {
+        width: 100%;
+        padding: 15px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .form-group button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid p-0">
+        <a class="navbar-brand d-flex align-items-center" href="#" style="font-weight: bold; font-size: 1.1rem;">
+          <img src="image/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+          <span class="ms-2">Nilna Skincare</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto w-100 d-flex justify-content-around">
+            <li class="nav-item">
+              <a class="nav-link active" href="/index.html" style="font-size: 1.1rem; font-weight: bold;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about1.html" style="font-size: 1.1rem; font-weight: bold;">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="font-size: 1.1rem; font-weight: bold;">Layanan</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 1.1rem; font-weight: bold;">
+                Produk
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Cushion G2G</a></li>
+                <li><a class="dropdown-item" href="#">Koncealer</a></li>
+                <li><a class="dropdown-item" href="#">Bedak Tabur</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Lipstik</a></li>
+                <li><a class="dropdown-item" href="#">Fokalure</a></li>
+                <li><a class="dropdown-item" href="#">Bedak Padat</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/Kontak.html" style="font-size: 1.1rem; font-weight: bold;">Kontak</a>
+            </li>
+          </ul>
+          <div class="d-flex ms-3 align-items-center">
+            <div class="vr mx-3" style="height: 30px;"></div>
+            <a href="#" class="me-3"><img src="image/fb1.png" alt="" width="30" height="30"></a>
+            <a href="#" class="me-3"><img src="image/ig4.jfif" alt="" width="30" height="30"></a>
+            <a href="#" class="me-3"><img src="image/tw1-removebg-preview.png" alt="" width="30" height="30"></a>
+            <a href="#" class="me-3"><img src="image/tiktok 2.png" alt="" width="30" height="30"></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <h1>Hubungi Kami</h1>
+      <hr>
+      <div class="row align-items-center">
+        <div class="col-md-12 about-section">
+          <h6 style="text-align: justify;">
+            Jika anda masih memiliki pertanyaan yang belum terjawab, kami dapat memberikan layanan konsultasi gratis bagi anda. Jangan ragu hubungi kami, tim marketing kami sangat terbuka dan siap melayani semua kebutuhan anda akan produk kosmetik yang berkualitas.
+          </h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <div class="card p-4 shadow rounded bg-white">
+            <div class="row text-left">
+              <div class="col-md-4 d-flex align-items-start">
+                <span style="color: #ffc107; font-size: 2.5rem;">📍</span>
+                <div class="ms-3">
+                  <h3>Location:</h3>
+                  <p>Jl.pelor mas2 sekarbela,<br>RT.01/RW.06,<br>kota mataram, Nusa Tenggara Barat,<br>Mataram 40715, Indonesia</p>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex align-items-start">
+                <span style="color: #ffc107; font-size: 2.5rem;">✉️</span>
+                <div class="ms-3">
+                  <h3>Email:</h3>
+                  <p><a href="mailto:info@skinsolutionindustri.co.id" style="color: #ffc107;">info@skinsolutionindustri.co.id</a></p>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex align-items-start">
+                <span style="color: #ffc107; font-size: 2.5rem;">📱</span>
+                <div class="ms-3">
+                  <h3>Whatsapp:</h3>
+                  <p>Admin 1: <a href="https://wa.me/6285732677777" target="_blank" style="color: #ffc107;">+(62) 85732677777</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <h2 class="text-center">Buat Jadwal Berkunjung ke Nilna Skincare Kosmetik Industri</h2>
+      <hr>
+      <div class="row justify-content-center">
+        <div class="col-md-12"> 
+          <div class="card p-4 shadow rounded bg-white">
+            <h1>Form Kunjungan</h1>
+            <form action="#" method="POST">
+              <div class="form-group">
+                <label for="nama">Nama Anda</label>
+                <input type="text" id="nama" name="nama" placeholder="Nama Anda" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <label for="tanggal">Tanggal Berkunjung</label>
+                <input type="date" id="tanggal" name="tanggal" required>
+              </div>
+              <div class="form-group">
+                <label for="alamat">Alamat</label>
+                <textarea id="alamat" name="alamat" placeholder="Alamat" rows="3" required></textarea>
+              </div>
+              <div class="form-group">
+                <label for="telepon">No. Hp / Telepon</label>
+                <input type="text" id="telepon" name="telepon" placeholder="No. Telepon" required>
+              </div>
+              <div class="form-group">
+                <label for="budget">Budget</label>
+                <input type="text" id="budget" name="budget" placeholder="Budget" required>
+              </div>
+              <div class="form-group">
+                <label for="produk">Produk</label>
+                <textarea id="produk" name="produk" placeholder="Produk yang diminati" rows="3" required></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="w-50" style="background-color: #ffc107; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; font-size: 14px; font-weight: bold; cursor: pointer;">
+                  Buat Jadwal Berkunjung
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid mt-5" style="background-color: #333333; color: white; padding: 40px;">
+      <div class="row">
+        <div class="col-md-6">
+          <p style="line-height: 1.8; margin-bottom: 5px; text-align: left;">
+            <strong>Detail Kontak</strong>
+          </p>
+          <p>
+            <strong>Alamat:</strong><br>
+            Jl.pelor mas2 kecematan sekarbela kota mataram nusa tenggara barat
+          </p>
+        
+            <p style="line-height: 1.8; margin-bottom: 5px; text-align: left;">
+              <strong>Admin 1:</strong> <span style="color: yellow;">+(62) 85732677777</span><br>
+              <strong>Email:</strong> <a href="mailto:info@skinsolutionindustri.co.id" style="color: yellow; text-decoration: none;">info@skinsolutionindustri.co.id</a>
+            </p>
+            
+        
+          <p>
+            <strong>Waktu kerja</strong><br>
+            Senin sampai Jum'at: 08:00 AM to 05:00 PM
+          </p>
+        </div>
+        
+        <div class="col-md-6">
+          <p style="line-height: 1.8; margin-bottom: 5px; text-align: left;">
+            <strong>Berita Terbaru</strong>
+          </p>
+        
+          <ul style="line-height: 1.8; padding-left: 20px; margin-bottom: 20px; text-align: left;">
+            <li style="margin-bottom: 5px;">Mengungkap Proses dan Pentingnya di Industri Kecantikan</li>
+            <li style="margin-bottom: 5px;">Minat Masyarakat Membuat Brand Kosmetik semakin Tinggi</li>
+            <li style="margin-bottom: 5px;">Kualitas produk semakin terjamin dan sudah mendapatkan sertifikat seperti BPOM, LPPOM HALAL MUI, HKI, ISO 9001, ISO 14001, ISO 45001 dan CPKB (Cara Pembuatan Kosmetik yang Baik)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid px-0" style="background-color: #343a40; color: white; padding: 20px 0;">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-md-6 text-center text-md-left">
+          <p style="margin: 0;">© 2025 Nilna Skincare</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end"> 
+          <a href="#" class="me-3"><img src="image/facebook-new.png" alt="Facebook" width="30" height="30"></a>
+          <a href="#" class="me-3"><img src="image/ig4-removebg-preview.png" alt="Instagram" width="30" height="30"></a>
+          <a href="#" class="me-3"><img src="image/tw1-removebg-preview.png" alt="Twitter" width="30" height="30"></a>
+          <a href="#" class="me-3"><img src="image/tiktok 2.png" alt="TikTok" width="30" height="30"></a>
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+    
